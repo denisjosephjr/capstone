@@ -1,0 +1,31 @@
+SRS Layout 
+(put your name by a section to complete and create corresponding text doc in this
+ directory by double dashed headers)
+
+==========================
+--Title Page
+    Team Info
+
+--Purpose
+
+--Market Comparisons 
+    Ex. Turnitin
+
+Overview
+    --Functions
+
+    --Environment
+
+    --Design and Implementation Constraints
+
+    --Assumptions and Dependencies
+        (Ex. File Converter/ Scanner,)
+
+Specific Requirements
+    --Functional Requirements
+
+    --Non-functional Requirements
+
+    --External Interface Requirements
+        
+    --UseCase 
