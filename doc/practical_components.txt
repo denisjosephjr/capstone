@@ -1,0 +1,11 @@
+Website
+    Frontend: HTML, CSS, JavaScript?
+    Backend: Database (MySQL?), Needs to Handle File Conversion
+
+App
+    Java?
+    Scanner Feature Needed
+    Handles File Conversion (jpg/ png --> pdf)
+
+LLM 
+    (don't know, never written one)
