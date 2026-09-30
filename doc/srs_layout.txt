@@ -6,7 +6,7 @@ SRS Layout
 --Title Page (Denis)
     Team Info
 
---Purpose
+--Purpose (Mikhail) 
 
 --Market Comparisons 
     Ex. Turnitin
@@ -28,4 +28,4 @@ Specific Requirements
 
     --External Interface Requirements
         
-    --UseCase 
+    --UseCase (Mikhail)
