@@ -1,11 +1,10 @@
 Website
-    Frontend: HTML, CSS, JavaScript?
-    Backend: Database (MySQL?), Needs to Handle File Conversion
+    Frontend: HTML, CSS, JavaScript?, React?
+    Backend: Database (MySQL?), Needs to Handle File Conversion, LLM
 
+---------------------------------------------------------------------------------
+(If we have time)
 App
     Java?
     Scanner Feature Needed
     Handles File Conversion (jpg/ png --> pdf)
-
-LLM 
-    (don't know, never written one)
