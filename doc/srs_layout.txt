@@ -3,7 +3,7 @@ SRS Layout
  directory by double dashed headers)
 
 ==========================
---Title Page
+--Title Page (Denis)
     Team Info
 
 --Purpose
@@ -22,7 +22,7 @@ Overview
         (Ex. File Converter/ Scanner,)
 
 Specific Requirements
-    --Functional Requirements
+    --Functional Requirements (Denis)
 
     --Non-functional Requirements
 
