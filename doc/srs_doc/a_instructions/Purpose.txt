@@ -1,0 +1,16 @@
+=================================================================================================
+                              Purpose Section - Mikhail Tsegaye
+=================================================================================================
+
+The main purpose of the Intelligent Assignment Similarity and Derivation Analysis system,
+otherwise known as IAS-DAS, is intended to detect similarities in a students programming 
+assignment, and any kind of written report that could have been produced from paraphrasing,
+reorganizing text/logic structure,and even goes as deep as being able to detect AI assisted 
+information. The IAS-DAS will be able to flag these assignments by using multiple different 
+techniques that focus on the structural semantics of the submitted work. If the IAS-DAS has 
+gone through the steps to verify that the submitted assignment was in fact not done by the 
+student that submitted it, it will let the instructor determine how to proceed since academic 
+integrity had been broken. 
+
+=================================================================================================
+=================================================================================================
