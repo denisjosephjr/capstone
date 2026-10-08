@@ -1,0 +1,23 @@
+As far as plagerism detection tools go in the academic field, Turnitin is 
+arguably the titan of the field. Turnitin is partnered with over 20,000 
+institutions and has a repo containing over 1.8 billion student submissions. 
+
+Turnitin is an instructor facing tool that is not student friendly. An individual
+cannot make an account on their website and use it individually. They rather sell
+licenses to institutions. Self plagerism can also be a big problem for previous
+submissions.
+
+There are other tools such as Scibbr with an Onyx text matching engine that is 
+good for students to check their own work.
+
+iThenticate (owned by Turnitin's parent company, Advance Publications) is good 
+academic researchers and journalists.
+
+Copyleaks and GPT Zero are AI based checkers.
+
+Grammarly is easy to use, mainly for grammar mistakes but it has a built in 
+plagerism detector.
+
+
+Overall Turnitin dominates, but can work more to be student friendly and have 
+better error handling with self plagerism.
