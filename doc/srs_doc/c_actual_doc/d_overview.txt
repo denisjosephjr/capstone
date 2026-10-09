@@ -1,0 +1,27 @@
+Product Functions
+    Our product with be a website and it starts by to accepting a file
+    (.docx or .pdf) as an input.
+
+    The inputed file will be matched to files collected in our student submission 
+    database. Title page and sources segment gets discarded and the main body of 
+    text is tokenized to then compared with the database.
+
+    Upon comparison a similarity percentage is given with sources. Depending on 
+    the instructor's percentage threshold, the assignment is accepted or denied.
+    
+    The student's assignment is then added to our database.
+    
+
+
+Operating Environment
+    A stable internet connection is needed as far as a network environment is
+    concerned. The website will work best on a browser on a computer. 
+
+    Mobile browser support is not guarenteed.
+
+
+Design and Implementation Contraints
+    The AI model that may be used to compare student submission and the database 
+    of student submissions are the primary contraints. 
+
+    

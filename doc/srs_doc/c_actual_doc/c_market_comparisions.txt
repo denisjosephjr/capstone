@@ -18,6 +18,15 @@ Copyleaks and GPT Zero are AI based checkers.
 Grammarly is easy to use, mainly for grammar mistakes but it has a built in 
 plagerism detector.
 
+---------------------------------------------------------------------------------
 
 Overall Turnitin dominates, but can work more to be student friendly and have 
 better error handling with self plagerism.
+
+---------------------------------------------------------------------------------
+
+We strive to be better by offering students and teachers access to our platform. 
+With careful database management we will track self plagerism and aid in 
+preventing unintentional similarities.
+
+
