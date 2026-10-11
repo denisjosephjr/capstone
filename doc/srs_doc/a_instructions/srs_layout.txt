@@ -3,16 +3,16 @@ SRS Layout
  directory by double dashed headers)
 
 ==========================
---Title Page (Denis)
+--Title Page (Denis) (Done-ish)
     Team Info
 
---Purpose (Mikhail) 
+--Purpose (Mikhail) (Done)
 
---Market Comparisons 
+--Market Comparisons (Denis) (Done)
     Ex. Turnitin
 
-Overview
-    --Functions
+Overview (Denis) (Done)
+    --Functions 
 
     --Environment
 
