@@ -19,10 +19,10 @@ Overview (Denis) (Done)
     --Design and Implementation Constraints
 
     --Assumptions and Dependencies
-        (Ex. File Converter/ Scanner,)
+        (Ex. AI Agent, React)
 
 Specific Requirements
-    --Functional Requirements (Denis)
+    --Functional Requirements (Denis) (Done)
 
     --Non-functional Requirements
 
