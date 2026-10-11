@@ -1,3 +1,4 @@
+/*
 Website
     Frontend
         HTML
@@ -13,21 +14,34 @@ Website
         User Login Database
 
         AI Transformer Detector
-
--------------------------------------
-
-Requirement
-    Input:
-    Process:
-    Output:
-
------------------------------------------
+*/
 
 User Login
-    Input: Email and Password
+    Input: (Email or Username) and Password
     Process: Checks Login Database for User
     Output: Logs user in or returns error message
 
-AI Agent
+User Login Database
+    Description: Database on SQL Server that contains unique id, email, username,
+                 and password
+
+Student/ Instructor Portal
+    Description: Allows access to past submission, classes (for instructor), and 
+                 the similarity assessment itself.
 
 File Management System
+    Description: Handles retrieving and inserting assigments into the Assignment 
+                 database.
+
+Assignment Database
+    Description: SQL Server with all assignment submissions. Unique primary Id 
+                 for each entry with data appended, course name, user that 
+                 submitted (student), student name, 
+
+AI Agent (RoBERTa by OpenAI)
+    Description: Scans user submission for AI similarity before appending to 
+                 data base.
+
+Similarity Interface
+    Description: Outputs the results of the similarity from the database and AI 
+                 agent results.
