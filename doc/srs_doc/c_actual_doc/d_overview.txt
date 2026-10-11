@@ -1,6 +1,6 @@
 Product Functions
     Our product with be a website and it starts by to accepting a file
-    (.docx or .pdf) as an input.
+    (.docx, .pdf, or .txt) as an input.
 
     The inputed file will be matched to files collected in our student submission 
     database. Title page and sources segment gets discarded and the main body of 
@@ -12,16 +12,37 @@ Product Functions
     The student's assignment is then added to our database.
     
 
-
 Operating Environment
     A stable internet connection is needed as far as a network environment is
     concerned. The website will work best on a browser on a computer. 
 
-    Mobile browser support is not guarenteed.
+    Mobile browser support is not guarenteed because of potential formatting
+    issues.
 
 
 Design and Implementation Contraints
     The AI model that may be used to compare student submission and the database 
     of student submissions are the primary contraints. 
 
+    FERPA laws prevent us from buildling a large database of student assignments
+    to train an AI model. The database will be curated by our team and not 
+    sourced. 
+
+    Building an AI model that could perform such a task will be difficult in 
+    terms of avoiding self plagerism pitfalls and privacy concerns.
     
+    The specific model type: 
+    Artificial Intelligence -> Machine Learning -> Deep Neural Network -> 
+    Transformer Model -> Detector.
+
+
+Assumptions and Dependencies
+    Assuming that an instructor or student will be using our service on a 
+    computer with a stable browser and internet connection.
+
+    The assumed file types of the assignments will be .pdf, .docx, and .txt
+
+    As for dependencies, the frontend will use React.
+
+    For AI text detection we will use RoBERTa by OpenAI.
+          
