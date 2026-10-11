@@ -1,0 +1,33 @@
+Website
+    Frontend
+        HTML
+
+        CSS
+
+        React
+
+    Backend
+        File Mangement System
+            Student Assignment Database
+
+        User Login Database
+
+        AI Transformer Detector
+
+-------------------------------------
+
+Requirement
+    Input:
+    Process:
+    Output:
+
+-----------------------------------------
+
+User Login
+    Input: Email and Password
+    Process: Checks Login Database for User
+    Output: Logs user in or returns error message
+
+AI Agent
+
+File Management System
