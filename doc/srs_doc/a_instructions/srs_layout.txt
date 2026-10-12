@@ -24,7 +24,7 @@ Overview (Denis) (Done)
 Specific Requirements
     --Functional Requirements (Denis) (Done)
 
-    --Non-functional Requirements
+    --Non-functional Requirements (Denis) (Done)
 
     --External Interface Requirements
         
