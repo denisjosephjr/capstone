@@ -1,4 +1,5 @@
 User Interface
    Web based interface for interactions (React)
    
-Software Interfaces 
+External System Interfaces
+    Database: SQL, specifically MySQL for the login and assignment databases

@@ -26,6 +26,6 @@ Specific Requirements
 
     --Non-functional Requirements (Denis) (Done)
 
-    --External Interface Requirements
+    --External Interface Requirements (Denis) (Done)
         
     --UseCase (Mikhail)
