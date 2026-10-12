@@ -43,5 +43,16 @@ AI Agent (RoBERTa by OpenAI)
                  data base.
 
 Similarity Interface
-    Description: Outputs the results of the similarity from the database and AI 
+    Description: Outputs the results of the similarity from the database and AI
                  agent results.
+    Input: A completed submission (selected from the portal's past
+           submissions or shown right after upload)
+    Process: Pulls the submission\'s database match results and the AI agent
+             score, then compares the similarity percentage against the
+             instructor's threshold
+    Output: Displays the overall similarity percentage, AI likelihood
+            percentage, accepted or denied status, the submitted text with
+            matching passages highlighted, and a list of matched sources
+            with their individual percentages. Students only see their own
+            results; instructors see results for all students in their
+            classes.
