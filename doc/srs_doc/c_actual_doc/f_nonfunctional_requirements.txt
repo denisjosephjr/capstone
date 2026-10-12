@@ -1,0 +1,15 @@
+Error Handlings for user login should be robust and descriptive. Return error
+messages based on the specific case; no account, wrong password, etc.
+
+Clean and descriptive UI for Student/ Instructor Portal that is responsive with 
+minimal input lag.
+
+File Mangement system correctly inserts files in database with no conflicts. 
+Errorhandling for duplicate files is presented to user, although unique ids 
+grants the user flexibility.
+
+The similarity report gives a proper percentage interval with citation and 
+lights on the text doc.
+
+The application must be responsive with minimal bugs and descriptive error
+handling.
