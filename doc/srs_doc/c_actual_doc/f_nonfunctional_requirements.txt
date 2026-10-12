@@ -13,3 +13,20 @@ lights on the text doc.
 
 The application must be responsive with minimal bugs and descriptive error
 handling.
+
+Database security must protect all user and assignment data. Passwords in the
+User Login Database are stored as salted hashes (ex. bcrypt), never in plain
+text.
+
+All queries to the Login and Assignment databases use parameterized
+statements to prevent SQL injection.
+
+Access is role based. Students can only view their own submissions and
+results, while instructors can only view submissions for classes they teach.
+
+Data is encrypted in transit (HTTPS/TLS) and sensitive data is encrypted at
+rest. Student submissions are handled in line with FERPA and are never shared
+outside the platform.
+
+Repeated failed login attempts temporarily lock the account, and the
+database is backed up regularly to prevent data loss.
