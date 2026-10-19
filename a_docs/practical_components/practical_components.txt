@@ -1,6 +1,15 @@
 Website
-    Frontend: HTML, CSS, JavaScript?, React?
-    Backend: Database (MySQL?), Needs to Handle File Conversion, LLM
+    Frontend: HTML, CSS, JavaScript, React
+    
+    Backend: 
+        Databases: User-Login Database
+                   Assignment Database
+                       Vector Database derived from Assignment Data Base
+
+        AI Agent(s): RAG?
+                     (SentenceBERT, CodeBERT, GraphCodeBERT, JPlag)?
+
+        
 
 ---------------------------------------------------------------------------------
 (If we have time)
