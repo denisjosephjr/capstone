@@ -19,6 +19,7 @@ App
     Handles File Conversion (jpg/ png --> pdf)
 
 =================================================================================
+Scrapped GitHub Pages Concept:
 
 Under settings I enabled GitHub pages. This allows us to see a static webpage, 
 (mainly frontend). Backend won't work without another service. 
@@ -26,9 +27,13 @@ Under settings I enabled GitHub pages. This allows us to see a static webpage,
 As a consquence the repo has to be public. That would become a problem for 
 databases later, but we'll pivot by then.
 
-Supabase can be used for the backend.
-
 If named my-website: [https://yourusername.github.io/my-website/]
 (https://yourusername.github.io/my-website/)
 
 https://denisjosephjr.github.io/ias-das.net/
+
+=================================================================================
+
+Vercel
+
+Supabase
