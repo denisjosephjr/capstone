@@ -1,0 +1,77 @@
+Website (Due 7 months out)
+    Need basic plan/ diagram
+    Need to setup dependencies and learn why they are needed
+    Need to give team clear guide to project and plan
+
+SDD (19 November)
+
+
+Poster (27 November)
+
+
+Website Basic Plan
+------------------
+Homepage: Student and Instructor Buttons (About TAB on the Top)
+|
+|    --Displays IAS-DAS with short description 2 sentences. Buttons to Student
+|      and Instructor sign in and about button   
+|
++--> Student Login Page: Username and Login Slots, Account Creation button, Home Button
+|    |                   Account Recovery Button 
+|    |
+|    |   --Username and Login is checked against login database (Either not found
+|    |     try again, or succesful login)
+|    |    
+|    |   --3 Failed Attempts Triggers Email/ Phone Number Recovery Pop Up
+|    |   
+|    |   --Succesful Login Routes to Dashboard
+|    |    
+|    +--> Account Creation Page (Student Variation): 
+|    | 
+|    |       --Asks for Username, First Name, Last Name, Email, Password, (Phone
+|    |          Number)
+|    |
+|    +--> Student Dashboard Page
+|
++--> Instructor Login Page: Username and Login Slots, Account Creation button, Home 
+|    |                Button
+|    |    
+|    |    --Username and Login is checked against login database (Either not found
+|    |      try again, or succesful login)
+|    | 
+|    |    --3 Failed Attempts Triggers Email/ Phone Number Recovery Option Pop Up
+|    |
+|    |    --Succesful Login Routes to Dashboard
+|    |
+|    +--> Account Creation Page (Instructor Variation): 
+|    |  
+|    |        --Asks for Username, First Name, Last Name, Email, Password, (Phone
+|    |          Number)
+|    |
+|    +--> Instructor Dashboard Page: 
+|        
+|
++--> About Page: Explains the tool. The who, what, when, where, and why.
+
+
+Login Database:
+    username (varchar),
+    Email, (Phone Number: Optional), Password (hash it, then 
+    store), First Name, Last Name, Role: (Student/ Instructor), Failed Attempts:
+    for login.
+
+==================================================================================
+
+npm == Node Package Manager, (For JavaScript and Node.js)
+    
+    JavaScript: Programming Language that makes interactive features work.
+    
+    Node.js: Runtime Environment that lets you run JavaScript outside of a web 
+             browser
+
+Vite == Modern Frontend Build Tool and Development Server
+    --Makes frontend faster.
+
+Supabase
+    ProGresSQL
+    pgvector
