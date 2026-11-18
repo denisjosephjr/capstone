@@ -1,11 +1,15 @@
-Website
-    Frontend: HTML, CSS, JavaScript, (React)
+Components:
+===========
+Website: (Hosted on Vercel) (npm?)
+    Frontend: HTML, CSS, JavaScript, (React) (Vite?)
     
-    Backend: 
-        Databases: User-Login Database
-                   Assignment Database
+    Backend: (Hosted on Render) 
+        
+        Supabase: User-Login Database
+                  Assignment Database
                        Vector Database derived from Assignment Data Base
 
+        
         AI Agent(s): RAG?
                      (SentenceBERT, CodeBERT, GraphCodeBERT, JPlag)?
 
@@ -34,6 +38,6 @@ https://denisjosephjr.github.io/ias-das.net/
 
 =================================================================================
 
-Vercel
-
-Supabase
+Vercel Link: https://capstone-bfrontend.vercel.app/
+    Need a work around for team. A team member's push won't be deployed and
+    branching will be problem.
