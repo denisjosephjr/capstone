@@ -1,3 +1,10 @@
+Vercel Link: https://capstone-bfrontend.vercel.app/
+    Need a work around for team. A team member's push won't be deployed and
+    branching will be problem.
+
+Deliverables
+------------
+
 Website (Due 7 months out)
     Need basic plan/ diagram
     Need to setup dependencies and learn why they are needed
@@ -32,6 +39,16 @@ Homepage: Student and Instructor Buttons (About TAB on the Top)
 |    |          Number)
 |    |
 |    +--> Student Dashboard Page
+|         |
+|         |    --Displays Submitted Assignments, Button for Submitting new 
+|         |      Assignments 
+|         |       
+|         +--> Individual Assignment Pages: 
+| 
+|                  --Shows Assignment, submission time, class name (or personal 
+|                    use flag), file type, similarity score, distribution, ai vs
+|                    human plagerism. 
+|                                   
 |
 +--> Instructor Login Page: Username and Login Slots, Account Creation button, Home 
 |    |                Button
@@ -49,7 +66,28 @@ Homepage: Student and Instructor Buttons (About TAB on the Top)
 |    |          Number)
 |    |
 |    +--> Instructor Dashboard Page: 
-|        
+|         |   
+|         |    --Displays Classes (listed downward), clickable and directs to its
+|         |      own class page.
+|         |      
+|         +--> Class Pages:
+|              |    
+|              |    --Lists students in a class with average similiarty from all 
+|              |      assignments next to their name.
+|              |
+|              |    --Button to click student for individual reports
+|              |
+|              +--> Student Pages: 
+|                   |   
+|                   |    --List Student Name, Lists all assignments and shows 
+|                   |      similarity score next to it
+|                   |
+|                   +--> Individual Assignment Pages: 
+|
+|                            --Shows Assignment, submission time, class name (or 
+|                              personal use flag), file type, similarity score, 
+|                              distribution, ai vs human plagerism, student name
+|
 |
 +--> About Page: Explains the tool. The who, what, when, where, and why.
 
@@ -61,7 +99,24 @@ Login Database:
     for login.
 
 ==================================================================================
+Components:
+===========
+Website: (Hosted on Vercel) (npm?)
+    Frontend: HTML, CSS, JavaScript, (React) (Vite?)
+    
+    Backend: (Hosted on Render) 
+        
+        Supabase: User-Login Database
+                  Assignment Database
+                       Vector Database derived from Assignment Data Base
 
+        
+        AI Agent(s): RAG?
+                     (SentenceBERT, CodeBERT, GraphCodeBERT, JPlag)?
+
+
+Dependencies
+------------
 npm == Node Package Manager, (For JavaScript and Node.js)
     
     JavaScript: Programming Language that makes interactive features work.
@@ -73,5 +128,8 @@ Vite == Modern Frontend Build Tool and Development Server
     --Makes frontend faster.
 
 Supabase
-    ProGresSQL
+    ProGreSQL
     pgvector
+
+
+

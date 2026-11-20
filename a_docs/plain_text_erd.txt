@@ -1,0 +1,58 @@
++-----------------------------------+
+|               USERS               |
++-----------------------------------+
+| PK  user_id          : UUID       |
+| UQ  username         : VARCHAR    |
+| UQ  email            : VARCHAR    |
+|     phone_number     : VARCHAR    | (nullable)
+|     password_hash    : VARCHAR    |
+|     first_name       : VARCHAR    |
+|     last_name        : VARCHAR    |
+|     role             : ENUM       | ('student', 'instructor')
+|     failed_attempts  : INT        | (default 0)
+|     created_at       : TIMESTAMP  |
++-----------------+-----------------+
+                  | 1
+                  |
+                  | owns / teaches / enrolls
+                  | N
++-----------------v-----------------+
+|              CLASSES              |
++-----------------------------------+
+| PK  class_id         : UUID       |
+| FK  owner_user_id    : UUID       | -> USERS.user_id (instructor or student for personal)
+|     class_name       : VARCHAR    | (e.g., "CS 3210" or "Personal Self-Check")
+|     is_personal      : BOOLEAN    | (default false; true for self-check bucket)
+|     created_at       : TIMESTAMP  |
++-----------------+-----------------+
+                  | 1
+                  |
+                  | contains
+                  | N
++-----------------v-----------------+
+|            SUBMISSIONS            |
++-----------------------------------+
+| PK  submission_id    : UUID       |
+| FK  user_id          : UUID       | -> USERS.user_id (submitter)
+| FK  class_id         : UUID       | -> CLASSES.class_id (always valid FK)
+|     assignment_name  : VARCHAR    |
+|     file_type        : VARCHAR    |
+|     source_code      : TEXT       |
+|     embedding        : VECTOR(N)  | (pgvector for similarity search)
+|     submitted_at     : TIMESTAMP  |
++-----------------+-----------------+
+                  | 1
+                  |
+                  | evaluated in
+                  | 1
++-----------------v-----------------+
+|        ANALYSIS_REPORTS           |
++-----------------------------------+
+| PK  report_id        : UUID       |
+| FK  submission_id    : UUID       | -> SUBMISSIONS.submission_id
+|     similarity_score : FLOAT      |
+|     distribution_json: JSONB      |
+|     ai_vs_human_flag : VARCHAR    |
+|     notes            : TEXT       |
+|     analyzed_at      : TIMESTAMP  |
++-----------------------------------+
