@@ -1,0 +1,10 @@
+Denis: Host Backend on Render
+
+Vince: Get minimally working frontend
+
+Mikhail: Sign into Supabase and checkin with Denis to link it
+
+(Tauha: Work with Vince on frontend)
+
+(Taizo: Check into with Denis on backend and get AI Agents to work)
+
